@@ -1,0 +1,36 @@
+{
+    "overall": {
+        "Name": "Green Mountain Transit",
+        "Kind": "Directed, unweighted",
+        "Nodes are": "Bus stops",
+        "Links are": "Connections between stops",
+        "Considerations": "Stops are imputed based on GPS coordinates and may contain errors."
+    },
+    "structure": {
+        "Number of nodes": 315,
+        "Number of links": 536,
+        "--- Bidirectional links": "19%",
+        "Degree (in/out)": [
+            "1.70159 [0, 6]",
+            "Distributions summarized with average [min, max]."
+        ],
+        "Degree": [
+            "3.40317 [1, 10]",
+            "Undirected.",
+            "Distributions summarized with average [min, max]."
+        ],
+        "Clustering": 0.08132771038139855,
+        "Connected": "Weakly connected",
+        "Assortativity (degree)": 0.044247754003998455
+    },
+    "metainfo": {
+        "Node metadata": "Position (lat/long) and name of bus stop",
+        "Link metadata": "None",
+        "Date of creation": "2024-02-15",
+        "Data generating process": "Route GEOJson files were downloaded from transit.land, a transit data aggregator, and processed with NetworkX.",
+        "Ethics": "n/a",
+        "Funding": "None",
+        "Citation": "None",
+        "Access": "https://www.transit.land/operators/o-dru-greenmountaintransitagency (Accessed 2024-02-15)"
+    }
+}
